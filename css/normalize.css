@@ -425,3 +425,20 @@ td,
 th {
   padding: 0;
 }
+
+
+@media screen and (max-width: 800px) {
+  nav{
+    display: none !important; 
+  }
+  article{
+    margin: auto !important;   
+  }
+  header{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+}
+@media screen and (max-width: 600px) {
+}
